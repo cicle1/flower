@@ -1,0 +1,160 @@
+.nav {
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    z-index: 9999;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin: 14px;
+}
+
+/* 行内元素 */
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+
+.navList li {
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+
+.navList li a:hover {
+    color: #16d0bc;
+}
+
+/*nav*/
+.banner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 396px;
+    background: #cccccc;
+}
+
+.banner img {
+    width: 100%;
+    height: 396px;
+}
+
+/*banner*/
+.gongzushi {
+    width: 100%;
+    height: 1100px;
+    background: white;
+}
+
+.gongzuobiaoti {
+    width: 1170px;
+    height: 100%;
+    font-size: 36px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.nei {
+    font-size: 16px;
+}
+
+.shou {
+    margin-top: 400px;
+    margin-bottom: 20px;
+}
+
+.nei p {
+    line-height: 30px;
+}
+
+.nei img {
+    width: 530px;
+    height: 340px;
+    padding-top: 40px;
+}
+
+/*gongzushi*/
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #f5f5f5;
+}
+
+.footerFirst {
+    width: 100%;
+    height: 20px;
+    border-top: 1px solid #76838f;
+    background: white;
+}
+
+.footerContent {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.footerContent img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.footerDesc a {
+    color: #62a8ea;
+    text-align: center;
+    font-size: 14px;
+    transition: all ease .5s;
+}
+
+.footerDesc a:hover {
+    color: #16d0bc;
+    text-decoration: underline;
+}
+
+.footerDesc {
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.footerDesc p {
+    color: #aaaaaa;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+/*footer*/
